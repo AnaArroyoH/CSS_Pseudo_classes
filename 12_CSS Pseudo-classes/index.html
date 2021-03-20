@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title> CSS pseudo classes </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <main>
+        <nav class="nav-bar">
+            <ul>
+                <li class="currentPage"><a href="#home">Home</a></li>
+                <li><a href="#bio">Bio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <div class="search">
+                <input type="search" name="search" placeholder="Search" />
+                <button>Search</button>
+                </div>
+            </ul>
+        </nav>
+
+        <div class="links">
+            <a class="hover" href="#link1"> This link will become light blue and bolder when hovered.</a>
+            <a class="active" href="#link2"> This link will become red and italic when it's active.</a>
+            <a class="visited" href="#link3"> This link will become yellow when visited.</a>
+        </div>
+
+        <form>
+            <lable class="form_input"> The text inside the input box will become green and 20px when it's on focus <input type="text">
+            </lable>
+        </form>
+
+    </main>
+</body>
+
+</html>
